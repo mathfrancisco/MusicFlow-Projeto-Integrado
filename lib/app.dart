@@ -15,7 +15,7 @@ class MusicFlowApp extends ConsumerWidget {
     return MaterialApp.router(
       title: 'MusicFlow',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.light(),
+      theme: AppTheme.dark(),
       locale: const Locale('pt', 'BR'),
       supportedLocales: const [Locale('pt', 'BR')],
       localizationsDelegates: const [
